@@ -2,8 +2,8 @@
 # Azure Functions to generate N numbers of random route destinations 
 # Timer trigger: configured to run every hour
 # Blob storage output: will save result as a CSV in a blob container
-# 
-# City : London
+#
+# City : Tallinn
 # -----------------------------------------------------------
 
 import datetime
@@ -18,10 +18,10 @@ import json
 
 
 #Coordinates points around city of interest
-maxLatitude = 51.592107
-minLatitude = 51.440154
-maxLongitude = 0.074503
-minLongitude = -0.213945
+maxLatitude = 59.443247
+minLatitude = 59.424395
+maxLongitude = 24.785602
+minLongitude = 24.715832
 #Number of road destinations to compute
 nb = 100
 #Azure Maps subscription key as environment variable

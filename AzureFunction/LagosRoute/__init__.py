@@ -3,7 +3,7 @@
 # Timer trigger: configured to run every hour
 # Blob storage output: will save result as a CSV in a blob container
 # 
-# City : London
+# City : Lagos
 # -----------------------------------------------------------
 
 import datetime
@@ -18,10 +18,10 @@ import json
 
 
 #Coordinates points around city of interest
-maxLatitude = 51.592107
-minLatitude = 51.440154
-maxLongitude = 0.074503
-minLongitude = -0.213945
+maxLatitude = 6.555410
+minLatitude = 6.486198
+maxLongitude = 3.406270
+minLongitude = 3.331525
 #Number of road destinations to compute
 nb = 100
 #Azure Maps subscription key as environment variable

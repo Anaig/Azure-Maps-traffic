@@ -10,7 +10,7 @@
     {
       "type": "blob",
       "name": "outputBlob",
-      "path": "londonroutes/{DateTime}.csv",
+      "path": "nairobiroutes/{DateTime}.csv",
       "direction": "out",
       "connection": "routestorage"
     }
