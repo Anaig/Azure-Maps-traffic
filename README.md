@@ -27,5 +27,7 @@ The output is either a png or a pbf file.
 
 ## Route directions API
 Interesting optional parameters for the request : travelMode (taxi - but still beta) and traffic (true).
+
 Itinerary: Charing Cross Station [51.50753, -0.12386] to the Tate Museum [51.491600, -0.129053].
+
 The [output](road/output-route-direction.json) has a `trafficDelayInSeconds` which is an interesting information. The route takes into account factors such as current traffic and the typical road speeds on the requested day of the week and time of day.
