@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "c:\\Users\\anmarech\\Documents\\GitRepo\\Azure-Maps-traffic\\.venv\\Scripts\\python.exe",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen"
+}
